@@ -1,1 +1,281 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.btn-gradient {
+    background: linear-gradient(45deg, #2937f0, #9f1ae2);
+    color: white;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.btn-gradient:hover {
+    transform: translateY(-3px);
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #2937f0, #9f1ae2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+.stats-section {
+    background: linear-gradient(45deg, #2937f0, #9f1ae2);
+    color: white;
+}
+
+.course-card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card {
+    background: #f8f9fa;
+    border-radius: 15px;
+    border: none;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* enroll page style  */
+
+.enroll_enrollment-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(41, 55, 240, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.enroll_form-select {
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid #e6e8fd;
+    font-size: 16px;
+    background: #f8f9ff;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.enroll_form-select:focus {
+    border-color: #4c5dff;
+    box-shadow: 0 0 0 4px rgba(76, 93, 255, 0.15);
+    background: #ffffff;
+}
+
+.enroll_form-label {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #2d3154;
+    letter-spacing: 0.3px;
+}
+
+.enroll_btn-enroll {
+    background: linear-gradient(135deg, #4c5dff 0%, #8447ff 100%);
+    border: none;
+    padding: 16px 35px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 12px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.enroll_btn-enroll:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(76, 93, 255, 0.25);
+    background: linear-gradient(135deg, #5a6aff 0%, #955aff 100%);
+}
+
+.enroll_error-message {
+    background-color: #fff1f1;
+    border-left: 4px solid #ff4d4d;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #e62e2e;
+    margin-top: 8px;
+}
+
+.enroll_select-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.enroll_page-title {
+    background: linear-gradient(135deg, #4c5dff 0%, #8447ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    letter-spacing: -0.5px;
+}
+
+.enroll_form-header {
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #f0f2ff;
+}
+
+.enroll_course-preview {
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f6f7ff 0%, #f9f5ff 100%);
+    padding: 30px;
+    margin-top: 50px;
+    border: 2px solid rgba(76, 93, 255, 0.1);
+}
+
+.enroll_enrollment-steps {
+    background: linear-gradient(135deg, rgba(76, 93, 255, 0.08) 0%, rgba(132, 71, 255, 0.08) 100%);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 50px 0;
+}
+
+.enroll_step-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(76, 93, 255, 0.08);
+    position: relative;
+    margin-bottom: 25px;
+    border: 2px solid rgba(76, 93, 255, 0.1);
+    transition: transform 0.4s ease;
+}
+
+.enroll_step-card:hover {
+    transform: translateY(-5px);
+}
+
+.enroll_step-number {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #4c5dff 0%, #8447ff 100%);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 4px 15px rgba(76, 93, 255, 0.2);
+}
+
+.enroll_faq-section {
+    margin-top: 50px;
+}
+
+.enroll_faq-card {
+    border: 2px solid rgba(76, 93, 255, 0.1);
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(76, 93, 255, 0.08);
+    transition: all 0.3s ease;
+}
+
+.enroll_faq-card:hover {
+    border-color: rgba(76, 93, 255, 0.2);
+}
+
+.enroll_faq-card .card-header {
+    background: white;
+    border: none;
+    padding: 20px 25px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.enroll_faq-card .card-body {
+    padding: 25px;
+    background: linear-gradient(135deg, #f6f7ff 0%, #f9f5ff 100%);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.enroll_course-summary {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 25px;
+    box-shadow: 0 8px 20px rgba(76, 93, 255, 0.08);
+    border: 2px solid rgba(76, 93, 255, 0.1);
+}
+
+.enroll_requirements-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.enroll_requirements-list li {
+    padding: 12px 0;
+    padding-left: 35px;
+    position: relative;
+    color: #2d3154;
+}
+
+.enroll_requirements-list li:before {
+    content: "✓";
+    color: #4c5dff;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.enroll_support-card {
+    background: linear-gradient(135deg, #4c5dff 0%, #8447ff 100%);
+    color: white;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 50px;
+    box-shadow: 0 15px 30px rgba(76, 93, 255, 0.15);
+}
+
+.enroll_support-card .btn-light {
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.enroll_support-card .btn-light:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}
